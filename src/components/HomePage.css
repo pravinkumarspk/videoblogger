@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'RADLUSH';
+    src: url('PFGrecia-DisplayBold-subset-BF672d7d4bf0e1f.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITALIC';
+    src: url('PFGrecia-Italic-subset-BF672d7d4c0bff6.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.home{
+    background-color: #FFF4B7;
+
+}
 .main-header {
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space between logo/name and navbar */
-    background-color: rgba(0, 160, 86, 1); /* Custom header background */
-    padding: 20px; /* Space around header */
+    background-color:#000B58; /* Custom header background */
+    padding: 50px; /* Space around header */
     color: rgb(240, 239, 239); /* Header text color */
 }
 
@@ -11,15 +32,24 @@
     width: 80px; /* Logo size */
     margin-right: 10px; /* Space between logo and name */
 }
-
+.header-content { /* Wrapper for centering content */
+    display: flex;
+    align-items: center;
+}
 .clg-name {
-    font-size: 40px; /* College name font size */
-    margin: 0; /* Remove margin */
+    font-size: 50px; /* College name font size */
+    margin: 0;
+      align-content: center;
+      font-family: 'RADLUSH', sans-serif;  
+
+   /* Remove margin */
 }
 
 /* Navbar Styles */
-.navbar {
-    margin-left: auto; /* Push navbar to the right */
+.navbar1 {
+    margin-left: auto;
+    justify-content: space-between; /* Push navbar to the right */
+    
 }
 
 .dropdown {
@@ -39,6 +69,7 @@
 
 .dropbtn:hover {
     background-color: #003d80; /* Darker background on hover */
+    border-radius: 15px;
 }
 
 .dropdown-content {
@@ -64,27 +95,148 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1; /* Change background on hover */
+    background-color: #006A67;
+    color: white;
+     /* Change background on hover */
 }
 
 .homepage-content {
-    margin-top: 20px; /* Space above the content */
-    padding: 20px; /* Space around the content */
-    background-color: #f9f9f9; /* Light background for the content */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px; /* Space above the content */
+    padding: 10px; /* Space around the content */
+    background-color:#FFF4B7; /* Light background for the content */
     border-radius: 8px; /* Rounded corners */
+    height: 80vh;
 }
 
 .homepage-content h2 {
     margin-top: 20px; /* Space above section titles */
-    color: #0056b3; /* Section title color */
+    color: #073d76; /* Section title color */
+    font-size: 3.2rem; /* Adjust heading font size */
+    font-weight: bold; /* Bold the title for emphasis */
+    padding: 1rem;
+    font-family: 'RADLUSH', sans-serif;  
+}
+
+.homepage-content h2:hover {
+    color:#062342 ;
+    cursor: pointer;
 }
 
 .homepage-content p {
-    line-height: 1.6; /* Improved line spacing for readability */
+    margin-top: 0;
+    color: #011212;
+    font-size: 1.8rem; /* Improved line spacing for readability */
+    font-weight: bold;
+    padding :1rem;
+    font-family: 'ITALIC', sans-serif;  
 }
 
 .homepage-content ul {
     list-style-type: disc; /* Bullet points for list items */
     margin-left: 20px; /* Indentation for list */
 }
+.container h1{
+    font-size: 50px;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+}
 
+.container
+{
+    background-color: #FFF4B7;
+    height: 100vh;
+}
+.left-image {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add some space to the right of the image */
+    width: 100px; /* Set the width of the image */
+    }
+
+.navbar{
+    justify-content: space-between;
+}
+
+/* From Uiverse.io by Custyyyy */ 
+.navbut {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 9px;
+    background: #d5f365;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+   }
+   
+   .navbut:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+   }
+   
+   .navbut:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+   }
+
+
+
+   /* === */
+
+   
+   .navbars{
+    background: #091057; font-family: calibri; padding-right: 15px;padding-left: 15px;padding-top: 20px;align-items: center;margin-bottom: 20px;padding-bottom: 20px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logos{
+    text-align: center;
+}
+.logos a{
+    font-size: 3rem; font-weight: 600; color: white;
+    text-decoration: none;
+    font-family: 'RADLUSH', sans-serif;  
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.logos a:hover{
+    color:#FFE31A;
+    cursor:pointer;
+}
+
+.ulist{
+    padding-right: 20px;
+}
+
+.ulist li{
+    list-style: none; display: inline-block;
+
+}
+
+
+.ulist button{
+    background-color: #091057; margin-left: 10px; border-radius: 8px; padding: 8px; width: 90px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+    border-color: #FFE31A;
+}
+.ulist button:hover{
+    background-color: #FFE31A;
+    color: black;
+    border-color: #000000;
+}
+
+.home h1{
+    font-family: 'RADLUSH', sans-serif;  
+    color:#073d76;
+    font-size: 5rem;
+    font-weight: bold;
+    box-shadow: black;
+    border-radius: 20px;
+
+}

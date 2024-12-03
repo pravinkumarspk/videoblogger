@@ -21,6 +21,9 @@
     padding: 20px; /* Space inside sections */
     background-color: rgba(0, 160, 86, 0.1); /* Light green background for sections */
     border-radius: 8px; /* Rounded corners */
+    justify-content: center;
+    columns: 1;
+    align-items: center;
 }
 
 .blog-section h2 {
@@ -28,11 +31,11 @@
 }
 
 .blog-image {
-    width: 80%; /* Responsive image */
+    width: 50%; /* Responsive image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Rounded corners */
     margin-top: 10px; /* Space above image */
-    margin-left: 90px; /* Space below image */
+    
 }
 
 .blog-content {
