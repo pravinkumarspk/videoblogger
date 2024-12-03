@@ -1,0 +1,55 @@
+.view-blog-container {
+    margin: 20px;
+}
+
+.view-blog-header {
+    margin-bottom: 40px;
+}
+
+.view-blog-header h1 {
+    font-size: 36px; /* Increase the size of "View Blog" */
+    color: rgba(0, 160, 86, 1); /* Make it green */
+}
+
+.view-blog-header p {
+    font-size: 18px; /* Increase the size of the subtitle text */
+    color: rgba(0, 160, 86, 1); /* Make the text green */
+}
+
+.blog-section {
+    margin-bottom: 30px; /* Space between sections */
+    padding: 20px; /* Space inside sections */
+    background-color: rgba(0, 160, 86, 0.1); /* Light green background for sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.blog-section h2 {
+    color: rgba(0, 160, 86, 1); /* Green section title color */
+}
+
+.blog-image {
+    width: 80%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 10px; /* Space above image */
+    margin-left: 90px; /* Space below image */
+}
+
+.blog-content {
+    margin-top: 10px; /* Space above content */
+}
+
+.btn {
+    margin-top: 15px; /* Space above button */
+    background-color: rgba(0, 160, 86, 1); /* Green button background */
+    color: white; /* White button text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn:hover {
+    background-color: rgba(0, 120, 65, 1); /* Darker green on hover */
+}

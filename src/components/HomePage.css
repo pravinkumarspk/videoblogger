@@ -1,0 +1,90 @@
+.main-header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo/name and navbar */
+    background-color: rgba(0, 160, 86, 1); /* Custom header background */
+    padding: 20px; /* Space around header */
+    color: rgb(240, 239, 239); /* Header text color */
+}
+
+.college-logo {
+    width: 80px; /* Logo size */
+    margin-right: 10px; /* Space between logo and name */
+}
+
+.clg-name {
+    font-size: 40px; /* College name font size */
+    margin: 0; /* Remove margin */
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-left: auto; /* Push navbar to the right */
+}
+
+.dropdown {
+    position: relative; /* Positioning for dropdown */
+}
+
+.dropbtn {
+    background-color: #00712D; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.dropbtn:hover {
+    background-color: #003d80; /* Darker background on hover */
+}
+
+.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Positioning */
+    right: 0; /* Align to the right of the dropdown */
+    background-color: white; /* Dropdown background */
+    min-width: 160px; /* Minimum width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Shadow effect */
+    z-index: 1; /* On top of other elements */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-content a {
+    color: #0056b3; /* Link color */
+    padding: 12px 16px; /* Padding inside dropdown links */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make links block level */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
+
+.homepage-content {
+    margin-top: 20px; /* Space above the content */
+    padding: 20px; /* Space around the content */
+    background-color: #f9f9f9; /* Light background for the content */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.homepage-content h2 {
+    margin-top: 20px; /* Space above section titles */
+    color: #0056b3; /* Section title color */
+}
+
+.homepage-content p {
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+.homepage-content ul {
+    list-style-type: disc; /* Bullet points for list items */
+    margin-left: 20px; /* Indentation for list */
+}
+
