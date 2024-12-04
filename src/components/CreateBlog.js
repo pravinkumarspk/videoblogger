@@ -18,7 +18,7 @@ function CreateBlog() {
         const blogData = { title, videoUrl, description, blogType, department };
 
         try {
-            const response = await fetch('https://videoblogger-1.onrender.com/create-blog', {
+            const response = await fetch('https://video-blogger.onrender.com/create-blog', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

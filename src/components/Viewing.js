@@ -16,7 +16,7 @@ const Viewing = () => {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await fetch('https://videoblogger-1.onrender.com/api/posts');
+                const response = await fetch('https://video-blogger.onrender.com/api/posts');
                 const data = await response.json();
                 setPosts(data);
             } catch (error) {

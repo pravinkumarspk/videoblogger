@@ -12,7 +12,7 @@ function StaffLogin() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://videoblogger-1.onrender.com/login', {
+      const response = await axios.post('https://video-blogger.onrender.com/login', {
         email,
         password,
       });
